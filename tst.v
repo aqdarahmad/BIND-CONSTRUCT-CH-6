@@ -21,3 +21,5 @@ module top;
 mone m1 (clk , req1 , ack1 ...);
 mone m2 (clk , req2 , ack2 ...);
 bind mone mone_prop mp1 (req,ack,clk);
+
+endmodule
